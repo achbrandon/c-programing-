@@ -7,10 +7,10 @@ int main (void) {
     int integer1=0;// will hold first number user enters 
 
     int integer2=0;// will hold second number user enters
-    printf("enter first integer:"); // prompt 
+    printf("enter first interger:"); // prompt 
     scanf("%d",&integer1); // read an  integer 
 
-    printf("enter second integer:"); //propt
+    printf("enter second interger:"); //propt
     scanf("%d", &integer2); //read an interger 
 
     int  sum = 0; //variable in which sum will be stored 

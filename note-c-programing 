@@ -1,0 +1,27 @@
+simple multiple choicce questions mcq
+
+60 Chapter 2 Intro to C Programming
+Self Check
+1 (Multiple Choice) Consider the code:
+int main(void)
+Which of the following statements is false?
+a) The parentheses after main indicate that it is a function.
+b) The keyword int to the left of main indicates that main returns an integer value, and the void in parentheses means that main does not receive any information.
+c) A left parenthesis, (, begins every function’s body. A corresponding right parenthesis, ), ends each function’s body.
+d) When execution reaches the end of main, the program terminates.
+Answer: c) is false. Actually, a left brace, {, begins every function’s body, and a corresponding right brace, }, ends each function’s body.
+2 (Multiple Choice) Which of the following statements is false?
+a) Each printf resumes printing where the previous one stopped printing.
+b) In the following code, the first printf displays Welcome followed by a space,
+and the second printf begins printing on the next line of output:
+ printf("Welcome ");
+ printf("to C!\n");
+c) The following printf prints several lines of text:
+ printf("Welcome\nto\nC!\n");
+d) Each time a \n escape sequence is encountered, output continues at the beginning of the next line.
+Answer: b) is false. Actually, the second printf begins printing immediately following the space output by the first printf.
+2.3 Another Simple C Program: Adding Two Integers
+Our next program uses the scanf standard library function to obtain two integers
+typed by a user at the keyboard, then computes their sum and displays the result using
+printf. The program and sample output are shown in Fig. 2.4. In the input/output
+dialog box of Fig. 2.4, we emphasize the numbers entered by
